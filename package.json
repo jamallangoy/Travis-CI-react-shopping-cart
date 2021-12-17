@@ -16,11 +16,12 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build, npm test",
-    "test": "react-scripts test",
+    "build": "react-scripts build",
+    "test": "react-scripts test, npm test",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
+
     "extends": [
       "react-app",
       "react-app/jest"

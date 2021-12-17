@@ -2,3 +2,8 @@ language: node_js
 node_js:
   - 7
   - 12
+before_install:
+   - npm i -g npm@version-number
+   cache:
+    npm: false
+script: npm test
